@@ -13,7 +13,7 @@ namespace ConsoleApp1
 
         {
 
-            string path = @"C:\File\";
+            string path = @"C:\File\"; //Paste your excel in this excel
             Workbook wb = new Workbook(path + "Book1.xlsx");
             Worksheet worksheet = wb.Worksheets[0];
 
